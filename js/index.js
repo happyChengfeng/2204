@@ -1,7 +1,11 @@
 export default class Problem {
-  defaultProps={
-    name:'zs',
-    age:22 
+  defaultProps = {
+    name: 'zs',
+    age: 22
+  }
+  status = {
+    goods: '小王',
+    info: '小王今晚烤羊腿'
   }
   // 实例化类自动调用
   constructor() {
